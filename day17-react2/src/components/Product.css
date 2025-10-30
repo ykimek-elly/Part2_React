@@ -1,0 +1,14 @@
+/* Product.css */
+
+/* 문의요망 디자인 */
+.no-price{
+    font-size: 2rem;
+    font-weight: bold;
+
+    color:red;
+}
+
+.price{
+    font-weight: bold;
+    color:lightcoral;
+}

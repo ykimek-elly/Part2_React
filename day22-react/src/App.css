@@ -1,0 +1,28 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+/* Details페이지의 버튼 디자인 */
+.recipe-detail-btn{
+    border: none;
+    outline: none;
+    background: lightcoral;
+
+    padding: 0.3rem 1rem;
+    border-radius: 1rem;
+}
+/*테이블 태그의 한 행의 디자인*/
+.recipe-content a{
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.recipe-content a:hover{
+    /* 마우스가 올라 갔을 때 밑줄을 생기게한다 */
+    text-decoration: underline;
+}

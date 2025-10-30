@@ -1,8 +1,11 @@
 import './App.css'
 import FruitList from './components/FruitList';
-import MovieInfo from './Test/MovieInfo';
-import Product from './Test/product';
+import UseStateEx2 from './useStateTest/UseStateEx2';
+import UseStateTest1 from './useStateTest/UseStateTest1';
 import Test1 from './Test/Test1';
+import LikeButton from './components/LikeButton';
+import NameChange from './components/NameChange';
+import DarkMode from './components/DarkMode';
 
 
 function App() {
@@ -29,18 +32,17 @@ function App() {
 
   return (
     <>
-      <Product name="아이스아메리카노" price="3000"/>
-      <Book title="자바스크립트 첫걸음" author="김코딩" />
-     
-     <h2>🎥 영화 정보</h2>
-      {/*  MovieInfo 컴포넌트 호출 */}
-      <MovieInfo />
+      {/* <UseStateTest1 /> 
+      <UseStateEx2 /> */}
+      <LikeButton />
+      <NameChange />
+      <DarkMode />
 
 
 
 
-
-      {/* 객체 형태 */}
+      
+      {/* <Test1 /> */}
       {/* <FruitList items={fruitInfo}/>
       <FruitList items ={fruitInfo2} /> */}
 

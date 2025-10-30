@@ -1,0 +1,25 @@
+/* Board.css */
+.search-box{
+    clear: both;
+    /* background: lightcoral; */
+    border:  1px solid #ddd;
+    padding: 1rem;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.search-box input{
+    border: none;
+    outline: none;
+    background: #ddd;
+
+    border-radius: 0.3rem;
+}
+
+.select-box{
+    width: 50%;
+    float: right;
+}

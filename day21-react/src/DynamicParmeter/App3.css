@@ -1,0 +1,19 @@
+.search-box {
+    text-align: right;
+}
+
+.search-box input{
+   margin:20px 10px;
+   border: 1px solid #ccc;
+   outline: none;
+
+   border-radius: 5px;
+}
+
+.search-box span{
+    color:#034854;
+    font-size: 1.2rem;
+}
+.search-box span:hover{
+    cursor: pointer;
+}

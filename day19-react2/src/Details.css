@@ -1,0 +1,84 @@
+/* Details.css */
+
+.detail-box-title h1{
+    text-align: center;
+}
+
+
+.detail-box-content{
+    display: flex;
+    /* 가로방향 메인축! */
+    justify-content: space-around;
+    align-items: center;
+
+    /* 테스트 용!
+    border: 2px solid; */
+}
+
+.detail-box-content img{
+
+    /* width: 50%; */
+    width: 25rem;
+}
+
+.detail-box-content-img-text h3{
+
+    font-size: 2rem;
+    
+}
+.detail-box-content-img-text button{
+   
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+    border: none;
+    outline: none;
+
+    border-radius: 0.2rem;
+    
+}
+/* 장바구니 담기 버튼을 선택 
+nth-of-type() - 실무에서 가장 많이 사용하는 방법
+같은 태그 (button) 중에서 첫 번째만 선택해라!
+*/
+.detail-box-content-img-text button:nth-of-type(1){
+    background: lightcoral;
+}
+
+.detail-box-content-img-text button:nth-of-type(2){
+    background: gray;
+}
+/* 아래 클래스명 안에 input태그 중에 첫번째 태그에 디자인해라! */
+.detail-box-content-img-text input:nth-of-type(1){
+    /* background: lightgreen; */
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+
+    width: 3rem;
+}
+.detail-box-content-img-text select:nth-of-type(1){
+    /* background: lightcyan; */
+    padding: 0.5rem;
+
+    width: 13rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+}
+
+/* 창이 줄어들면 배치가 엉망이된다.
+창의 크기가 줄어들면 그때 실행하는 배치를 작성한다. */
+@media (max-width : 775px){
+    
+    .detail-box-content{
+        /* 세로정렬을 메인 축으로 한다. */
+        flex-direction: column;
+        gap: 0.3rem;
+        /* text-align: center; */
+        
+    }
+    .detail-box-content-img-text{
+        margin-left: 1rem;
+    }
+}

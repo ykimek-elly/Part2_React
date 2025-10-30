@@ -1,0 +1,59 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.board-list-section{
+  width: 800px;
+  
+}
+.board-list-section ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  font-weight: bold;
+  margin: 2rem 0;
+}
+.board-list-menu li{
+  color: #999;
+  cursor: pointer;
+}
+.board-list-content table{
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.board-list-content th,
+.board-list-content td {
+  border-bottom: 1px solid #ccc;
+  padding: 0.8rem;
+}
+
+
+.board-list-bottom{
+width: 50%;
+margin: 0 auto; //flax 대신 가운데 정렬할고 싶을때 사용
+}
+
+.board-list-bottom input{
+  border: 1px solid #ccc;
+  border-radius: 0.2rem;
+  ourline: none;
+
+  padding: 0.5rem;
+
+}
+
+
+.board-list-bottom button{
+  border: none;
+  ourline: none;
+  background: black;
+  color: #fff;
+  padding: 0.4rem 0.7rem;
+  border-radius: 0.7rem;
+}

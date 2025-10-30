@@ -1,0 +1,15 @@
+.primary {
+  background-color: #007bff; /* 파란색 버튼 */
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s;
+}
+
+.primary:hover {
+  background-color: #0056b3; /* hover 시 진한 파랑 */
+  transform: scale(1.05);
+}
