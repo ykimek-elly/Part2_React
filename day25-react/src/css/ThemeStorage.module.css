@@ -1,0 +1,16 @@
+.dark .light{
+    height: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+
+}
+.light{
+    background: #fff;
+    color: black;
+}
+.dark{
+    background: #000;
+    color: #fff;
+}
