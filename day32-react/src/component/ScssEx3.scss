@@ -1,0 +1,23 @@
+// 공통 스타일 정의(미리만들기)
+@mixin button-style($bg,$color){
+    background: $bg;
+    color: $color;
+    cursor: pointer;
+    transition: 0.5s;
+
+    &:hover{
+        opacity: 0.8;
+    }
+}
+
+.btn {
+    margin: 1rem;
+
+    &.primary{
+        @include button-style(#0070f3,white )
+    }&.danger{
+        @include button-style(#e53935,white )
+    }&.success{
+        @include button-style(#43a047,white )
+    }
+}

@@ -1,0 +1,57 @@
+//  scss 특징
+//  프로젝트가 실행 될 때 .scss되어있는 파일을
+//  하나로 묶어서 프로젝트 전체적으로 적용시킨다.
+//  디자인파일명.module.scss
+
+$theme : light;
+
+.loop-container{
+    text-align: center;
+    border: 1px solid black;
+
+    .box-list{
+        display: flex;
+        gap: 1rem;
+    }
+    // 반복문을 이용해서 box-1,box-2...box-5
+    // for 변수명 of 리스트
+    //  시작 through 끝   (포함)
+    //  시작 to 끝  (끝나는 값을 포함X)
+    @for $i from 1 through 5{
+        .box-#{$i}{
+            color:black;
+            font-weight: bold;
+            background: hsl($i * 50,70%,55%);
+        }
+    }
+
+
+}
+/*
+hsl() 
+ -색상,채도,밝기를 조합해서 색을 표현하는 함수다!
+ - background: hsl(100,70%,55%);
+ - 원형 색상표(h) 각도를 조금씩 돌려주면서 
+   자동으로 다른 색상이 나오는 효과!
+*/
+
+
+
+
+
+
+
+//변수를 만들어서 테마선택!
+.box-if{
+    background: #ddd;
+    padding: 1.5rem;
+    color:white;
+
+    // if문 처리
+    @if $theme == dark{
+        background: black;
+    } @else{
+        background: #ddd;
+        color: black;
+    }
+}

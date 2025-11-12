@@ -1,0 +1,30 @@
+.container{
+    width: 860px;
+    height: 860px;
+    background: #fff;
+    margin: 0 auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: 1px solid;
+    border-radius: 0.7rem;
+
+}
+
+.top-nav{
+    width: 100%;
+    background: #202336;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    border-top-left-radius: 0.7rem;
+    border-top-right-radius: 0.7rem;
+    color: #fff;
+    padding: 0 4rem;
+}
+
+.top-nav span{
+  
+}
+.top-nav ul{
+    display: flex;
+    list-style: none;
+}
