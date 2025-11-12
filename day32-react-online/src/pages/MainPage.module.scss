@@ -1,0 +1,23 @@
+
+$card-background: #ffffff;
+$shadow-color: rgba(0, 0, 0, 0.1);
+
+
+.card {
+  background: $card-background;
+  padding: 2rem;
+  margin-top: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px $shadow-color;
+
+
+  h2 {
+    margin-top: 0;
+    color: #333;
+  }
+
+  p {
+    font-size: 1.1rem;
+    color: #666;
+  }
+}

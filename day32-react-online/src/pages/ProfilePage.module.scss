@@ -1,0 +1,19 @@
+
+/* 페이지 전체를 2단 그리드로 설정 */
+.profilePage {
+  display: grid;
+  /* 1fr 1fr은 1:1 비율. 1fr 1.5fr은 1:1.5 비율 */
+  grid-template-columns: 1fr 1.5fr; 
+  gap: 2rem;
+  max-width: 1400px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #f4f7f6; /* 페이지 배경색 */
+}
+
+/* 오른쪽 컬럼 (위젯 2개) */
+.rightColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem; /* 위젯 사이의 간격 */
+}

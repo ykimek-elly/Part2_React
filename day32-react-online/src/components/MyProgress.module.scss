@@ -1,0 +1,44 @@
+
+
+/* 원형 차트 3개를 가로로 배치 */
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.circleBox {
+  width: 120px;
+
+  .chartWrapper {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+
+    /* 퍼센티지 텍스트를 차트 중앙에 배치 */
+    .percentage {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+  }
+
+  p {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #555;
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+  }
+
+  span {
+    font-size: 0.8rem;
+    color: #888;
+  }
+}
