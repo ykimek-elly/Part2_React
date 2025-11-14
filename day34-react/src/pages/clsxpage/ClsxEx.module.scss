@@ -1,0 +1,27 @@
+//module 확장자가 들어가야 ClsxEx 컴포넌트에서만 디자인이 적용된다.
+
+.title{
+    color: coral;
+
+}
+.box {
+  width: 120px;
+  height: 120px;
+  background: #ffe9d6;
+}
+
+.round {
+  border-radius: 12px;
+}
+
+.shadow {
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+}
+
+.active {
+  background: #e39a6d;
+}
+
+.error {
+  border: 2px solid red;
+}
